@@ -26,7 +26,7 @@ public class DemoTest {
         Response response = RestAssured.given()
                 .get(url)
                 .andReturn();
-
+// comment
         response.getBody().prettyPrint();
     }
 }
