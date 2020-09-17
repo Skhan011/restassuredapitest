@@ -42,7 +42,8 @@ external libraries.
 * Download and install Apache Maven V3.0+
 * Download and install Git v2.0+
 ## Set-up Instructions
-
+You need to have following test execution set up
+![Screenshot](/images/test_execution_setup.png)
 ## How to write Test Cases
 
 ## How to run Tests
