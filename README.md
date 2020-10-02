@@ -52,13 +52,13 @@ executions such as smoke, regression, and end-to-end on different possible envir
 UAT.
 ### Executing specific tests
 If you would like to execute a specific test that are stated on testng.xml file
+Choose from the following command:
+
+For invoking smoke test"
 ```shell script
-mvn test -Dtestof="smoke_api"
+mvn test -Dtestof="Smoke"
 ```
 
-If you would like to execute all of the tests that are stated on testng.xml file
-```shell script
-mvn test
 ```
 
 If you would like to execute multiple different types of test stated on testng.xml file

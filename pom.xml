@@ -39,8 +39,6 @@
        </dependency>
 
 
-
-
    </dependencies>
     <build>
         <plugins>
@@ -53,6 +51,13 @@
                     <suiteXmlFiles>
                         <xmlFile>testng.xml</xmlFile>
                     </suiteXmlFiles>
+
+                    <properties>
+                        <property>
+                            <name>testnames</name>
+                            <value>${testof}</value>
+                        </property>
+                    </properties>
                 </configuration>
             </plugin>
         </plugins>
