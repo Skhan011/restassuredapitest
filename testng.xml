@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo Test Suites">
+    <!-- Test Listener -->
+    <listeners>
+        <listener class-name="utility.TestExecutionListener"/>
+    </listeners>
+    <!-- Test          -->
+    <test name="EndpointVerification">
+        <classes>
+            <class name="tests.EndpointVerificationTest"/>
+        </classes>
+    </test>
+    <test name="SmokeTest">
+        <classes>
+            <class name="tests.EndpointVerificationTest"/>
+            <class name="tests.ApiSmokeTest"/>
+        </classes>
+    </test>
+    <test name="RegressionTest">
+        <classes>
+            <class name="tests.EndpointVerificationTest"/>
+            <class name="tests.ApiRegressionTest"/>
+        </classes>
+    </test>
+    <test name="E2E">
+        <classes>
+            <class name="tests.ApiEndToEndTest"/>
+        </classes>
+    </test>
+
+</suite>
