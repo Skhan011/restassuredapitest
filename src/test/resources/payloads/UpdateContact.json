@@ -1,0 +1,13 @@
+{
+  "firstName": "Billy",
+  "lastName": "Hill",
+  "email": "rhill@fake.com",
+  "location": {
+    "city": "London",
+    "country": "UK"
+  },
+  "employer": {
+    "jobTitle": "QA Lead",
+    "company": "Apple"
+  }
+}
